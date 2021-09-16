@@ -321,7 +321,7 @@ export type WATag = [WAMetric, WAFlag]
 /** set of statuses visible to other people; see updatePresence() in WhatsAppWeb.Send */
 export enum Presence {
     unavailable = 'unavailable', // "offline"
-    available = 'available', // "online"
+    available = 'online', // "online"
     composing = 'composing', // "typing..."
     recording = 'recording', // "recording..."
     paused = 'paused', // stop typing
